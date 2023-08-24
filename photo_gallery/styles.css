@@ -132,7 +132,7 @@ p {
 
 /* section */
 .section {
-  /* padding: 5rem 0; */
+  padding: 2rem 0;
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -292,8 +292,12 @@ nav {
 }
 
 .header {
-  padding: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-left: 10px;
   text-align: left;
-  background: white;
-  font-size: 30px;
+  background: paleturquoise;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
 }
