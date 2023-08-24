@@ -294,10 +294,12 @@ nav {
 .header {
   margin-top: 20px;
   margin-left: 15px;
-  padding-left: 10px;
+  padding-left: 40px;
+  padding-top: 5px;
   text-align: left;
   background: paleturquoise;
-  width: 400px;
+  width: 200px;
   height: 50px;
   font-size: 25px;
+  border-radius: 50%;
 }
