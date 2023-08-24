@@ -291,15 +291,24 @@ nav {
     padding: 1rem;
 }
 
-.header {
+.header_1 {
   margin-top: 20px;
-  margin-left: 15px;
-  padding-left: 40px;
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px;
   padding-top: 5px;
-  text-align: left;
-  background: paleturquoise;
-  width: 200px;
+  width: 175px;
   height: 50px;
-  font-size: 25px;
-  border-radius: 50%;
+  text-align: left;
+}
+
+.header_2 {
+  margin-top: 20px;
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px;
+  padding-top: 5px;
+  width: 345px;
+  height: 50px;
+  text-align: left;
 }
