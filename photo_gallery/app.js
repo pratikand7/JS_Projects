@@ -94,3 +94,4 @@ Gallery.prototype.chooseImage = function (e) {
 };
 const nature = new Gallery(getElement('.nature'));
 const city = new Gallery(getElement('.city'));
+const space = new Gallery(getElement('.space'));
