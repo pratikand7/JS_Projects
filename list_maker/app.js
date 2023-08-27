@@ -174,10 +174,6 @@ function editLocalStorage(id, value) {
   localStorage.setItem("list", JSON.stringify(items));
 }
 
-// SETUP LOCALSTORAGE.REMOVEITEM('LIST');
-
-// ****** setup items **********
-
 function setupItems() {
   let items = getLocalStorage();
 
