@@ -55,6 +55,24 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.logo {
+  width: "64";
+  height: "64"; 
+}
+
+nav {
+  background:radial-gradient( 100% 100% at 100% 0%, #f82b2b 0%, #f0dbc1 100% );
+  height: 80px;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  -webkit-text-stroke: 2px var(--red-dark);
+  font-size: 40px;
+  text-align: left;
+}
+
 body {
   background: var(--backgroundColor);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -170,20 +188,3 @@ ul {
   margin-left: 20px;
 }
 
-.logo {
-  width: "64";
-  height: "64"; 
-}
-
-nav {
-  background:radial-gradient( 100% 100% at 100% 0%, #f82b2b 0%, #f0dbc1 100% );
-  height: 80px;
-}
-
-.navbar-brand {
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  -webkit-text-stroke: 2px var(--red-dark);
-  font-size: 40px;
-  text-align: left;
-}
