@@ -203,12 +203,11 @@ function createListItem(id, value) {
               </button>
             </div>
           `;
-  // add event listeners to both buttons;
+
   const deleteBtn = element.querySelector(".delete-btn");
   deleteBtn.addEventListener("click", deleteItem);
   const editBtn = element.querySelector(".edit-btn");
   editBtn.addEventListener("click", editItem);
 
-  // append child
   list.appendChild(element);
 }
